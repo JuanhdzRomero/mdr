@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Italianno&display=swap');
+
+.titulo{
+    background-image: url("../img2/alaneiris.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.mensaje h1{
+    margin: 700px 0 0px 0;
+    padding: 10px 0 30px 0;
+    font-weight: bold;
+    color:#bc9942 ;
+    background-color: rgba(38, 38, 38, 0.63);
+    font-size: 7rem;
+    font-family: 'Alex Brush', cursive;
+font-family: 'Italianno', cursive;
+}
+
+.mensaje h2{
+    font-weight: bold;
+    color:#bc9942 ;
+    padding-bottom: 10px;
+    font-size: 6rem;
+    background-color: rgba(38, 38, 38, 0.63);
+    font-family: 'Alex Brush', cursive;
+font-family: 'Italianno', cursive;
+}
+.informacion{
+    background-color: #fcfaf6;
+}
+
+.informacion .leyenda{
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 25px;
+    color:#bc9942 ;
+}
+.informacion p{
+    font-size: 20px;
+    
+}
+
+.informacion #instrucciones{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.informacion #pasos{
+    font-size: 20px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mesa-de-regalos{
+    padding: 40px;
+}
+
+.mesa-de-regalos img{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+}
+
+.mesa-contenedor{
+    padding: 60px;
+    margin-bottom: 40px;
+}
+
+.seleccionado{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.seleccionado p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: red;
+}
+
+.no-regalo{
+    position: relative;
+}
+
+.no-regalo img{
+    opacity: 0.2;
+}
+
+.no-regalo .seleccionado{
+    opacity: 1;
+}
+
+.cards{
+    margin-bottom: 50px;
+}
+
+.mensaje #nota2{
+    margin-bottom: 45px;
+}
+
+a button{
+    font-size: 25px;
+    color: white;
+    background-color: green;
+    padding: 20px;
+    border-radius: 20px;
+    border: transparent;
+    
+}
+
+@media  screen and ( max-width: 500px) {
+    .mensaje h1{
+        margin: 400px 0 0px 0;
+        padding: 10px 0 30px 0;
+        font-size: 80px;
+    }
+    
+    .mensaje h2{
+        font-size: 60px;
+    }
+
+    .informacion .leyenda{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .informacion #instrucciones{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .informacion #pasos{
+        font-size: 16px;
+    }
+    
+    .informacion p{
+        font-size: 16px;
+    }
+
+    .informacion a button{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .mesa-de-regalos img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .seleccionado{
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .seleccionado p{
+        font-size: 15px;
+    }
+    .cards{
+        text-align: center;
+        align-items: center;
+    }
+
+    h5{
+        font-size: 18px;
+        text-align: center;
+    }
+}
